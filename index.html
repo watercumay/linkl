@@ -32,10 +32,20 @@
       font-size: 1.5em;
       margin: 0.3em 0;
     }
-    h2 {
+    .title-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
       font-size: 1.1em;
-      margin: 0.2em 0 1em 0;
       color: #555;
+      margin-bottom: 1em;
+      gap: 0.5em;
+    }
+    .title-row img {
+      width: 1.2em;
+      height: 1.2em;
+      vertical-align: middle;
     }
     .info {
       text-align: left;
@@ -54,20 +64,17 @@
   <div class="card">
     <img class="logo" src="https://upload.wikimedia.org/wikipedia/zh/thumb/a/ae/Taiwan_Water_Corporation_Seal.svg/400px-Taiwan_Water_Corporation_Seal.svg.png" alt="公司Logo">
     <h1>林國良</h1>
-    <h2>操作課 課長
-        <!-- LINE 圖示 -->
-      <a href="https://line.me/ti/p/~a0935076535" target="_blank" style="margin-left: 5px; vertical-align: middle;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/LINE_New_App_Icon_%282020-12%29.png/250px-LINE_New_App_Icon_%282020-12%29.png"
-         alt="LINE"
-         style="width: 20px; height: 20px; vertical-align: top;">
+
+    <div class="title-row">
+      <span>操作課 課長</span>
+      <a href="https://line.me/ti/p/~a0935076535" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/LINE_New_App_Icon_%282020-12%29.png/250px-LINE_New_App_Icon_%282020-12%29.png" alt="LINE">
       </a>
-       <!-- 手機圖示 -->
-  <a href="tel:0935076535" style="margin-left: 6px; vertical-align: middle;">
-    <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
-         alt="手機"
-         style="width: 18px; height: 18px; vertical-align: top;">
-  </a>
-    </h2>
+      <a href="tel:0935076535">
+        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="手機">
+      </a>
+    </div>
+
     <div class="info">
       <div>🏢 台灣自來水公司第七區管理處</div>
       <div>📞 <a href="tel:077311111">07-7311111 分機360</a></div>
